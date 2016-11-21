@@ -25,57 +25,41 @@
 		"sections": [{
 		    "items": [
 		      {
-		        "type": "label",
-		        "text": "Label only item"
-		      },
-		      {
 		        "type": "vertical",
 		        "components": [
+  		          {
+  		            "type": "label",
+  		            "text": "Start with CreateForm which will create new form"
+  		          },					
 		          {
 		            "type": "image",
 		            "url": "https://raw.githubusercontent.com/steve21124/experiment/master/createform.png"
-		          },
-		          {
-		            "type": "label",
-		            "text": "Mary"
-		          },
-		          {
-		            "type": "label",
-		            "text": "Jane"
 		          }
 		        ]
 		      },
 		      {
 		        "type": "vertical",
 		        "components": [
+    		          {
+    		            "type": "label",
+    		            "text": "Once form done, tapping on the form cell enable adding data to the form"
+    		          },					
 		          {
 		            "type": "image",
 		            "url": "https://raw.githubusercontent.com/steve21124/experiment/master/weddingguest.png"
-		          },
-		          {
-		            "type": "label",
-		            "text": "Mary"
-		          },
-		          {
-		            "type": "label",
-		            "text": "Jane"
 		          }
 		        ]
 		      },
 		      {
 		        "type": "vertical",
 		        "components": [
+    		          {
+    		            "type": "label",
+    		            "text": "to export the form tap on share on top right"
+    		          },					
 		          {
 		            "type": "image",
 		            "url": "https://raw.githubusercontent.com/steve21124/experiment/master/spreadsheet.png"
-		          },
-		          {
-		            "type": "label",
-		            "text": "Mary"
-		          },
-		          {
-		            "type": "label",
-		            "text": "Jane"
 		          }
 		        ]
 		      }			  			  
