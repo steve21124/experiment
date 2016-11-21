@@ -33,7 +33,10 @@
   		          },					
 		          {
 		            "type": "image",
-		            "url": "https://raw.githubusercontent.com/steve21124/experiment/master/createform.png"
+		            "url": "https://raw.githubusercontent.com/steve21124/experiment/master/createform.png",
+					"style": {
+						"width":"80%"
+					      }					
 		          }
 		        ]
 		      },
@@ -46,7 +49,10 @@
     		          },					
 		          {
 		            "type": "image",
-		            "url": "https://raw.githubusercontent.com/steve21124/experiment/master/weddingguest.png"
+		            "url": "https://raw.githubusercontent.com/steve21124/experiment/master/weddingguest.png",
+					"style": {
+						"width":"80%"
+					      }						
 		          }
 		        ]
 		      },
@@ -59,7 +65,10 @@
     		          },					
 		          {
 		            "type": "image",
-		            "url": "https://raw.githubusercontent.com/steve21124/experiment/master/spreadsheet.png"
+		            "url": "https://raw.githubusercontent.com/steve21124/experiment/master/spreadsheet.png",
+					"style": {
+						"width":"80%"
+					      }						
 		          }
 		        ]
 		      }			  			  
