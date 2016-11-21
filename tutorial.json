@@ -21,53 +21,49 @@
         }
       }
     },
-    "body": {
-        "style": {
-            "background": {
-                "type": "gradient",
-                "color1": "#587498",
-                "color2": "#587058"
-            },
-            "border": "none"
-      },
-      "sections": [        
-        {
-          "items": [
-            {
-              "type": "label",
-              "text": "Core",
-              "class": "bold padded",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/core/index.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "View",
-              "class": "bold padded",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/view/index.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Action",
-              "class": "bold padded",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/action/index.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Template",
-              "class": "bold padded",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/template/index.json"
-              }
-            }
-          ]
-        }       
-      ],
+    "body": {        
+		"sections": [{
+		    "items": [
+		      {
+		        "type": "label",
+		        "text": "Label only item"
+		      },
+		      {
+		        "type": "vertical",
+		        "components": [
+		          {
+		            "type": "image",
+		            "url": "https://jasonclient.org/img/john.png"
+		          },
+		          {
+		            "type": "label",
+		            "text": "John"
+		          },
+		          {
+		            "type": "label",
+		            "text": "Doe"
+		          }
+		        ]
+		      },
+		      {
+		        "type": "vertical",
+		        "components": [
+		          {
+		            "type": "image",
+		            "url": "https://jasonclient.org/img/mary.png"
+		          },
+		          {
+		            "type": "label",
+		            "text": "Mary"
+		          },
+		          {
+		            "type": "label",
+		            "text": "Jane"
+		          }
+		        ]
+		      }
+		    ]
+		  }]
       "footer": {
           "tabs": {
 			  "style": {
