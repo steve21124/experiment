@@ -22,21 +22,13 @@
       }
     },
     "body": {
-      "header": {
-        "title": "Jasonpedia",
         "style": {
-          "background": "#8bb92d",
-          "color": "#ffffff",
-          "font": "AvenirNext-Bold",
-          "size": "14"
-        },
-        "menu": {
-          "text": "View JSON",
-          "href": {
-            "url": "https://github.com/Jasonette/Jasonpedia/blob/gh-pages/demo.json",
-            "view": "web"
-          }
-        }
+            "background": {
+                "type": "gradient",
+                "color1": "#587498",
+                "color2": "#587058"
+            },
+            "border": "none"
       },
       "sections": [        
         {
