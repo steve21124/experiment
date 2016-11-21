@@ -38,48 +38,8 @@
           }
         }
       },
-      "sections": [
+      "sections": [        
         {
-          "items": [
-            {
-              "type": "vertical",
-              "style": {
-                "background": "rgba(14,122,254,0.1)",
-                "padding": "20"
-              },
-              "href": {
-                "url": "mailto:?subject=Documentation&body=https://jasonette.github.io/documentation",
-                "view": "app"
-              },
-              "components": [
-                {
-                  "type": "label",
-                  "text": "Send yourself Documentation",
-                  "class": "bold",
-                  "style": {
-                    "color": "rgb(14,122,254)"
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "header": {
-            "type": "vertical",
-            "style": {
-              "background": "#ebebeb"
-            },
-            "components": [{
-              "type": "label",
-              "class": "bold",
-              "text": "Tutorial"
-            }, {
-              "type": "label",
-              "class": "normal",
-              "text": "Simple demos to demonstrate how each module works. Also used for testing purposes."
-            }]
-          },
           "items": [
             {
               "type": "label",
@@ -114,40 +74,39 @@
               }
             }
           ]
-        },
-        {
-          "header": {
-            "type": "vertical",
-            "style": {
-              "background": "#ebebeb"
-            },
-            "components": [{
-              "type": "label",
-              "class": "bold",
-              "text": "Showcase"
-            }, {
-              "type": "label",
-              "class": "normal",
-              "text": "Wrote a cool/useful JSON markup? Send a pull request to https://github.com/Jasonette/Jasonpedia"
-            }]
-          },
-          "items": [{
-            "type": "label",
-            "text": "Instagram",
-            "href": {
-              "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json",
-              "transition": "modal"
-            }
-          }, {
-            "type": "label",
-            "text": "Twitter",
-            "href": {
-              "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/home.json",
-              "transition": "modal"
-            }
-          }]
-        }
-      ]
+        }       
+      ],
+      "footer": {
+          "tabs": {
+              "style": {
+                  "background": "#CECED2",
+                  "color:disabled": "#cecece",
+                  "color": "#009efa"
+              },
+              "items": [
+                        {
+                        "image": "bundle:\/\/\/fa-list.png",
+                        "text": "Form",
+                        "style": {
+                        "height": "21"
+                        },
+                        "href": {
+                        "view": "FormSchemaListViewController",
+                        "transition": "update",
+                        }
+                        },
+                        {
+                        "image": "bundle:\/\/\/info-icon.png",
+                        "text": "Tutorial",
+                        "style": {
+                        "height": "21"
+                        },
+                        "url": "https://raw.githubusercontent.com/steve21124/experiment/master/tutorial.json"
+                        }
+                        ]
+          }
+      }
+	  
     }
   }
 }
