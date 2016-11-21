@@ -78,11 +78,10 @@
       ],
       "footer": {
           "tabs": {
-              "style": {
-                  "background": "#CECED2",
-                  "color:disabled": "#cecece",
-                  "color": "#009efa"
-              },
+			  "style": {
+			    	"background": "#373737"
+			    },
+              
               "items": [
                         {
                         "image": "bundle:\/\/\/fa-list.png",
